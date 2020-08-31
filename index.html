@@ -68,9 +68,9 @@
 		<tr>
 			<td>
 				<div class="allContactsName" id="1">
-					<input type="tel" name="contact" title="Enter name" class="newContact" maxlength="21" size="25" id="saveInformation" placeholder="Enter Name">
+					<input type="tel" name="contact" title="Enter name" class="newContact" maxlength="21" size="25" id="saveName1" placeholder="Enter Name" onblur="add('saveName1')">
 					<td>
-						<input type="text" name="contact" title="Enter number" class="newContact" maxlength="15" size="19" pattern="375-[0-9] {3}-[0-9]{2}-[0-9]{2}" id="saveInformation" placeholder="Enter Number"> 
+						<input type="text" name="contact" title="Enter number" class="newContact" maxlength="15" size="19" pattern="375-[0-9] {3}-[0-9]{2}-[0-9]{2}" id="saveTel1" placeholder="Enter Number" onblur="add('saveTel1')"> 
 					</td>
 				</div>
 			</td>
@@ -78,9 +78,9 @@
 		<tr>
 			<td>
 				<div class="allContactsName" id="1">
-					<input type="tel" name="contact" title="Enter name" class="newContact" maxlength="21" size="25" id="saveInformation" placeholder="Enter Name">
+					<input type="tel" name="contact" title="Enter name" class="newContact" maxlength="21" size="25" id="saveName2" placeholder="Enter Name" onblur="add('saveName2')">
 					<td>
-						<input type="text" name="contact" title="Enter number" class="newContact" maxlength="15" size="19" pattern="375-[0-9] {3}-[0-9]{2}-[0-9]{2}" id="saveInformation" placeholder="Enter Number"> 
+						<input type="text" name="contact" title="Enter number" class="newContact" maxlength="15" size="19" pattern="375-[0-9] {3}-[0-9]{2}-[0-9]{2}" id="saveTel2" placeholder="Enter Number" onblur="add('saveTel2')"> 
 					</td>
 				</div>
 			</td>
@@ -88,9 +88,9 @@
 		<tr>
 			<td>
 				<div class="allContactsName" id="1">
-					<input type="tel" name="contact" title="Enter name" class="newContact" maxlength="21" size="25" id="saveInformation" placeholder="Enter Name">
+					<input type="tel" name="contact" title="Enter name" class="newContact" maxlength="21" size="25" id="saveName3" placeholder="Enter Name" onblur="add('saveName3')">
 					<td>
-						<input type="text" name="contact" title="Enter number" class="newContact" maxlength="15" size="19" pattern="375-[0-9] {3}-[0-9]{2}-[0-9]{2}" id="saveInformation" placeholder="Enter Number"> 
+						<input type="text" name="contact" title="Enter number" class="newContact" maxlength="15" size="19" pattern="375-[0-9] {3}-[0-9]{2}-[0-9]{2}" id="saveTel3" placeholder="Enter Number" onblur="add('saveTel3')"> 
 					</td>
 				</div>
 			</td>
@@ -98,13 +98,16 @@
 		<tr>
 			<td>
 				<div class="allContactsName" id="1">
-					<input type="tel" name="contact" title="Enter name" class="newContact" maxlength="21" size="25" id="saveInformation" placeholder="Enter Name">
+					<input type="tel" name="contact" title="Enter name" class="newContact" maxlength="21" size="25" id="saveName4" placeholder="Enter Name" onblur="add('saveName4')">
 					<td>
-						<input type="text" name="contact" title="Enter number" class="newContact" maxlength="15" size="19" pattern="375-[0-9] {3}-[0-9]{2}-[0-9]{2}" id="saveInformation" placeholder="Enter Number"> 
+						<input type="text" name="contact" title="Enter number" class="newContact" maxlength="15" size="19" pattern="375-[0-9] {3}-[0-9]{2}-[0-9]{2}" id="saveTel4" placeholder="Enter Number" onblur="add('saveTel4')"> 
 					</td>
 				</div>
 			</td>
 		</tr>
 	</table>
+	<a id="upbutton" href="#" onclick="smoothJumpUp(); return false;">
+		<p align="right"> <img src="upSymbol.png" alt="" height="50px" width="50px"> </p>
+	</a>
 </body>
 </html>

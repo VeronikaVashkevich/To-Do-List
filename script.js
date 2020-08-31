@@ -1,8 +1,3 @@
-	//id of task - saveTask
-	//id of time - saveTime
-	//id of meet - savemeet
-	//localStorage.setItem("secondTask", document.getElementById(id).value);
-
 function add(id) {
 		if(document.getElementById(id).id==="saveTask1") 
 		{
@@ -17,8 +12,6 @@ function add(id) {
 			localStorage.setItem("thirdTask", document.getElementById(id).value);
 		}
 
-		//
-
 		if(document.getElementById(id).id==="saveTime1") 
 		{
 			localStorage.setItem("firstTime", document.getElementById(id).value);
@@ -32,8 +25,6 @@ function add(id) {
 			localStorage.setItem("thirdTime", document.getElementById(id).value);
 		}
 
-		//
-
 		if(document.getElementById(id).id==="saveMeet1") 
 		{
 			localStorage.setItem("firstMeet", document.getElementById(id).value);
@@ -46,8 +37,6 @@ function add(id) {
 		{
 			localStorage.setItem("thirdMeet", document.getElementById(id).value);
 		}
-		
-		//
 
 		if(document.getElementById(id).id==="saveName1") 
 		{
@@ -66,8 +55,6 @@ function add(id) {
 			localStorage.setItem("fourthName", document.getElementById(id).value);
 		}
 
-		//
-
 		if(document.getElementById(id).id==="saveTel1") 
 		{
 			localStorage.setItem("firstTel", document.getElementById(id).value);
@@ -84,35 +71,45 @@ function add(id) {
 		{
 			localStorage.setItem("fourthTel", document.getElementById(id).value);
 		}
+
 	}
 function load() {
 	document.getElementById("saveTask1").innerHTML=localStorage.getItem("firstTask");
 	document.getElementById("saveTask2").innerHTML=localStorage.getItem("secondTask");
 	document.getElementById("saveTask3").innerHTML=localStorage.getItem("thirdTask");
-
-	//
-
+	
 	document.getElementById("saveTime1").value=localStorage.getItem("firstTime");
-	document.getElementById("saveTime2").value=localStorage.getItem("secondTime");
+	document.getElementById("saveTime2").value=localStorage.getItem("secondTime");	
 	document.getElementById("saveTime3").value=localStorage.getItem("thirdTime");
-
-	//
 	
 	document.getElementById("saveMeet1").value=localStorage.getItem("firstMeet");
 	document.getElementById("saveMeet2").value=localStorage.getItem("secondMeet");
 	document.getElementById("saveMeet3").value=localStorage.getItem("thirdMeet");
-
-	//
-
+	
 	document.getElementById("saveName1").value=localStorage.getItem("firstName");
 	document.getElementById("saveName2").value=localStorage.getItem("secondName");
 	document.getElementById("saveName3").value=localStorage.getItem("thirdName");
 	document.getElementById("saveName4").value=localStorage.getItem("fourthName");
 	
-	//
-
 	document.getElementById("saveTel1").value=localStorage.getItem("firstTel");
 	document.getElementById("saveTel2").value=localStorage.getItem("secondTel");
 	document.getElementById("saveTel3").value=localStorage.getItem("thirdTel");
 	document.getElementById("saveTel4").value=localStorage.getItem("fourthTel");
 }
+
+
+var smoothJumpUp = function() {
+        if (document.body.scrollTop>0 || document.documentElement.scrollTop>0) {
+            window.scrollBy(0,-50);
+            setTimeout(smoothJumpUp, 10);
+        }
+    }
+    
+    window.onscroll = function() {
+      var scrolled = window.pageYOffset || document.documentElement.scrollTop;
+      if (scrolled > 100) {
+      	document.getElementById('upbutton').style.display = 'block';
+      } else {
+      	document.getElementById('upbutton').style.display = 'none';
+      }
+    }
