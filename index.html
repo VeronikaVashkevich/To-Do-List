@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Main Page</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js">  </script>
+</head>
+<body class="purple_theme" onload="load()">
+	<table align="center">
+		<tr>
+			<td class="header" colspan="2">
+				Business Notes
+			</td>
+		</tr>
+		<tr class="subsection">
+			<td align="center">
+				Meetings
+			</td>
+			<td align="center" width="35%">
+				Tasks
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div class="task">
+					<input type="time" name="time" maxlength="5" class="setTime" pattern="\d{1,2}\.\d{1,2}\" id="saveTime1" onblur="add('saveTime1')"> 
+					<input type="text" name="newTask" maxlength="42" class="setMeeting" id="saveMeet1" onblur=" add('saveMeet1')">
+				</div>
+			</td>
+			<td align="center">
+				<textarea name="newTack" class="setTask" rows="4" maxlength="50" id="saveTask1"  onblur="add('saveTask1')">  </textarea> 
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div class="task">
+					<input type="time" name="time" maxlength="5" class="setTime" pattern="\d{1,2}\.\d{1,2}\" id="saveTime2" onblur="add('saveTime2')">
+					<input type="text" name="newTask" maxlength="42" class="setMeeting" id="saveMeet2" onblur=" add('saveMeet2')">
+				</div>
+			</td>
+			<td align="center">
+				<textarea name="newTack" class="setTask" rows="4" maxlength="50" id="saveTask2" onblur="add('saveTask2')">  </textarea> 
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div class="task">
+					<input type="time" name="time" maxlength="5" class="setTime" pattern="\d{1,2}\.\d{1,2}\" id="saveTime3" onblur="add('saveTime3')">
+					<input type="text" name="newTask" maxlength="42" class="setMeeting" id="saveMeet3" onblur="add('saveMeet3')">
+				</div>
+			</td>
+			<td align="center">
+				<textarea name="newTack" class="setTask" rows="4" maxlength="50" id="saveTask3" onblur="add('saveTask3')">  </textarea> 
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<hr size="10px" color="#693f8a" width="70%">
+			</td>
+		</tr>
+		<tr class="subsection">
+			<td colspan="2">
+				Contacts
+			</td>
+		</tr>
+		</tr>
+		<tr>
+			<td>
+				<div class="allContactsName" id="1">
+					<input type="tel" name="contact" title="Enter name" class="newContact" maxlength="21" size="25" id="saveInformation" placeholder="Enter Name">
+					<td>
+						<input type="text" name="contact" title="Enter number" class="newContact" maxlength="15" size="19" pattern="375-[0-9] {3}-[0-9]{2}-[0-9]{2}" id="saveInformation" placeholder="Enter Number"> 
+					</td>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div class="allContactsName" id="1">
+					<input type="tel" name="contact" title="Enter name" class="newContact" maxlength="21" size="25" id="saveInformation" placeholder="Enter Name">
+					<td>
+						<input type="text" name="contact" title="Enter number" class="newContact" maxlength="15" size="19" pattern="375-[0-9] {3}-[0-9]{2}-[0-9]{2}" id="saveInformation" placeholder="Enter Number"> 
+					</td>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div class="allContactsName" id="1">
+					<input type="tel" name="contact" title="Enter name" class="newContact" maxlength="21" size="25" id="saveInformation" placeholder="Enter Name">
+					<td>
+						<input type="text" name="contact" title="Enter number" class="newContact" maxlength="15" size="19" pattern="375-[0-9] {3}-[0-9]{2}-[0-9]{2}" id="saveInformation" placeholder="Enter Number"> 
+					</td>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div class="allContactsName" id="1">
+					<input type="tel" name="contact" title="Enter name" class="newContact" maxlength="21" size="25" id="saveInformation" placeholder="Enter Name">
+					<td>
+						<input type="text" name="contact" title="Enter number" class="newContact" maxlength="15" size="19" pattern="375-[0-9] {3}-[0-9]{2}-[0-9]{2}" id="saveInformation" placeholder="Enter Number"> 
+					</td>
+				</div>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

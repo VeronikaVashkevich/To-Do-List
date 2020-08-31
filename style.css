@@ -1,0 +1,118 @@
+		body.purple_theme
+		{
+			background: #6b6b6b;
+			cursor: url("arrow.cur"), default;
+			/*cursor: url("Text.cur"), text;*/
+			font-size: 20px;
+			color: white;
+			font-family: monospace;
+		}
+		table
+		{
+			width: 70%;
+			border: 0px solid black;
+		}
+		hr
+		{
+			 border-radius: 5px;
+		}
+		td
+		{
+			border: 0px solid black;
+
+		}
+		.all_links
+		{
+			cursor: url("link.cur"), pointer;
+			text-decoration: none;
+		}
+		.header
+		{
+			font-size: 9vh;  
+			color: white;
+			font-family: monospace;
+			text-shadow: 5px 5px 20px black;
+			text-align: center;
+			border: 7px solid #693f8a;     
+			border-radius: 2vh;
+		}
+		.header:hover
+		{
+			background: #404040;
+			transition: 0.25s;
+			border-radius: 2vh;
+		}
+		.subsection
+		{
+			font-size: 6.5vh;
+			color: white;
+			font-family: monospace;
+			text-shadow: 5px 5px 15px black;
+			text-align: center;
+			border: 6px solid #693f8a;    
+			border-radius: 1.7vh;
+		}
+		.subsection :hover
+		{
+			background: #404040;
+			transition: 0.25s;
+			border-radius: 1.7vh;
+		}
+		.task
+		{
+			padding: 5vh;
+			vertical-align: top;
+		}
+		.setTime
+		{
+			text-align: center;
+			background: #404040;
+			border: 4px solid #693f8a;
+			border-radius: 5px;
+			font-family: monospace;
+			font-size: 2vh;
+			color: white;
+			height: 30px;
+			width: 90px;
+		}
+		.setMeeting
+		{
+			text-align: center;
+			background: #404040;
+			border: 4px solid #693f8a;
+			border-radius: 5px;
+			font-family: monospace;
+			font-size: 20px;
+			color: white;
+			height: 30px;
+			width: 500px;
+		}
+		.setTask
+		{
+			text-align: center;
+			background: #404040;
+			border: 4px solid #693f8a;
+			border-radius: 5px;
+			font-family: monospace;
+			font-size: 20px;
+			color: white;
+			vertical-align: middle;
+		}
+		.allContactsName
+		{
+			text-align: center;
+			font-family: monospace;
+			font-size: 20px;
+			color: white;
+			padding: 20px;
+		}
+		.newContact
+		{
+			text-align: center;
+			background: #404040;
+			border: 4px solid #693f8a;
+			border-radius: 5px;
+			font-family: monospace;
+			font-size: 20px;
+			color: white;
+		}
